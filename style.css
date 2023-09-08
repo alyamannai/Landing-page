@@ -15,17 +15,45 @@
     display:flex;
     justify-content: space-around;
     align-items: flex-start;
-    color: #E5E7EB;
-    font-size:18px;
+    gap:400px;
+     
+    
 }
 
 .list{
 list-style-type: none;
 display: flex;
 gap:25px;
+flex-basis:80%;
 }
 
-img{
+.logo{
+    width:100px;
+    height:300px;
+    flex-basis:20%;
+}
+.cat{
     width: auto;
-    height: 100px;
+    height:400px;
+}
+
+.intro{
+    display: flex;
+    justify-content:center;
+}
+
+.main{
+    font-size:48px;
+    font-weight:bolder;
+    color:#f9faf8
+}
+
+.secondary{
+    color:#e5e7eb;
+    font-size:18px;
+}
+
+.sign{
+    
+    background-color: #3882f6;
 }
