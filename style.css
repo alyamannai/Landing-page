@@ -7,6 +7,24 @@
 
 }
 
+.p1{
+    background-color: #1f2937;
+}
+
+.header{
+    display:flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    color: #E5E7EB;
+    font-size:18px;
+}
+
+.list{
+list-style-type: none;
+display: flex;
+gap:25px;
+}
+
 img{
     width: auto;
     height: 100px;
