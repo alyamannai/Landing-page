@@ -1,0 +1,13 @@
+*{
+    border:1px solid red;
+}
+
+#home-page{
+    displayL:flex;
+
+}
+
+img{
+    width: auto;
+    height: 100px;
+}
