@@ -3,11 +3,14 @@
 }
 
 #home-page{
-    displayL:flex;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
 
 }
 
 .p1{
+
     background-color: #1f2937;
 }
 
@@ -20,6 +23,12 @@
     
 }
 
+.left{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 5%;
+}
+
 .list{
 list-style-type: none;
 display: flex;
@@ -28,13 +37,15 @@ flex-basis:80%;
 }
 
 .logo{
-    width:100px;
-    height:300px;
+    width:auto;
+    height:100px;
     flex-basis:20%;
 }
 .cat{
     width: auto;
-    height:400px;
+    height:300px;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .intro{
@@ -53,7 +64,104 @@ flex-basis:80%;
     font-size:18px;
 }
 
-.sign{
-    
+.subscribe{
     background-color: #3882f6;
+    color:#e5e7eb;
+    border-radius: 4px;
+    width:100px;
+
+}
+
+.subscribe:hover{
+    
+    transition-duration: 0.4s;
+    background-color: #e5e7eb;
+    color: #1f2937;
+   
+}
+
+
+
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.p2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title{
+    text-align: center;
+    font-size:36px;
+    font-weight:bolder;
+    color: #1f2937;
+}
+
+.imgwtxt{
+    display:flex;
+    justify-content: space-around;
+    margin:5%;
+}
+
+
+.box{
+    text-align: center;
+    border:2px solid #1f2937;
+    border-radius: 8px;
+
+}
+
+.i{
+    height: 200px;
+    width: auto;
+}
+
+.p3{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    background-color:#CDCDCD;
+}
+
+
+#quote{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:470px;
+    height: 200px;
+    font-size:36px;
+    font-weight:light;
+    font-style:italic;
+    color: #1f2937;
+}
+
+.p4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.b-box{
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882f6;
+    padding:30px;
+    margin:5%;
+}
+
+.hp4{
+   font-size: 24px; 
+   font-weight:bolder;
+   color: #f9faf8;
+}
+
+.sp4{
+    color:#f9faf8;
+    
 }
